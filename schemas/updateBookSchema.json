@@ -1,0 +1,75 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1662442022.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"author",
+		"language",
+		"pages",
+		"publisher",
+		"title",
+		"year"
+	],
+	"properties": {
+		"author": {
+			"$id": "#root/author", 
+			"title": "Author", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Matthew Lane"
+			],
+			"pattern": "^.*$"
+		},
+		"language": {
+			"$id": "#root/language", 
+			"title": "Language", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"english"
+			],
+			"pattern": "^.*$"
+		},
+		"pages": {
+			"$id": "#root/pages", 
+			"title": "Pages", 
+			"type": "integer",
+			"examples": [
+				264
+			],
+			"default": 0
+		},
+		"publisher": {
+			"$id": "#root/publisher", 
+			"title": "Publisher", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Princeton University Press"
+			],
+			"pattern": "^.*$"
+		},
+		"title": {
+			"$id": "#root/title", 
+			"title": "Title", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Power-Up: Unlocking the Hidden Mathematics in Video Games"
+			],
+			"pattern": "^.*$"
+		},
+		"year": {
+			"$id": "#root/year", 
+			"title": "Year", 
+			"type": "integer",
+			"examples": [
+				2017
+			],
+			"default": 0
+		}
+	}
+}
